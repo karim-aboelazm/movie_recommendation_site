@@ -153,10 +153,10 @@ h6 {
 		top:0;
 		width: 100%;
 		height: 100%;
-		background-image: url("../static/loader.gif");
-		background-size: 40%;
+		background-image: url("../static/new_loader.gif");
+		background-size: 60%;
 		background-position: 50% 50%;
-		background-color: rgba(255, 255, 255, 1);
+		background-color: rgba(25,31,38,255);
 		background-repeat: no-repeat;
 		-webkit-transition: background-image 0.2s ease-in-out;
 		transition: background-image 0.2s ease-in-out;
@@ -212,10 +212,10 @@ h6 {
 		top:0;
 		width: 100%;
 		height: 100%;
-		background-image: url("../static/loader.gif");
-		background-size: 20%;
+		background-image: url("../static/new_loader.gif");
+		background-size: 60%;
 		background-position: 50% 50%;
-		background-color: rgba(255, 255, 255, 1);
+		background-color:  rgba(25,31,38,255);
 		background-repeat: no-repeat;
 		-webkit-transition: background-image 0.2s ease-in-out;
 		transition: background-image 0.2s ease-in-out;
