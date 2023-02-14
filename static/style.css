@@ -1,21 +1,50 @@
-html, .over_bus_flow{
-	--scrollbarBG: #07070796;
-	--thumbBG: #330808;
+
+.hero-area-slider {
+	margin: auto;
+	max-width: 1000px;
+	
 }
-body::-webkit-scrollbar,.over_bus_flow::-webkit-scrollbar {
-	width: 8px;
+
+.author-review {
+    color: #fece50;
+    float: left;
 }
-body , .over_bus_flow{
-	scrollbar-width: thin;
-	scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+
+.review h4 {
+    padding-left: 25px;
+    overflow: hidden;
 }
-body::-webkit-scrollbar-track,.over_bus_flow::-webkit-scrollbar-track {
-	background: var(--scrollbarBG);
+
+.review {
+    margin: 8px 0 35px;
 }
-body::-webkit-scrollbar-thumb,.over_bus_flow::-webkit-scrollbar-thumb {
-	background-color: var(--thumbBG) ;
-	border-radius: 6px;
-	border: 3px solid var(--scrollbarBG);
+
+.hero-area-content h3 {
+    margin-top: 35px;
+}
+
+.single-slide-cast {
+    width: 11.5%;
+	margin-right: 1%;
+	float: left;
+    margin-top: 15px;
+}
+
+.single-slide-cast img {
+    border-radius: 100%;
+}
+
+.single-slide-cast.text-center {
+    height: 45px;
+    line-height: 45px;
+    border-radius: 100%;
+    max-width: 45px;
+    border: 2px solid #eb315a;
+    color: #eb315a;
+}
+.pr-50 {
+	padding-right: 10px;
+	margin-left: -15px;
 }
 
 .movie {
